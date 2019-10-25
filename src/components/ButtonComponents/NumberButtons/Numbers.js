@@ -21,7 +21,7 @@ const Numbers = () => {
       
        {numData.map(item => (
          <NumberButton number={item}/>) 
-      )}
+      )};
     </div>
   );
 };
